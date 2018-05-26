@@ -62,4 +62,8 @@
     .mobile_picture_margin{
         margin-top: 2px;
     }
+
+    .section.insect .title{
+        margin-bottom: 40px;
+    }
 }
