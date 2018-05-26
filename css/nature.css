@@ -1,0 +1,65 @@
+/*全域設定*/
+.section{
+    padding: 70px 0px;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+.title{
+
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section.insect .title{
+    margin-bottom: 80px;
+}
+
+/*圖片放大效果*/
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+/*分頁效果css*/
+
+.pc_picture_margin{
+    margin-top: 7px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.nav-item{
+    margin-right: 0px;
+}
+
+.nav.nav-tabs li:nth-child(3):after, .nav.nav-tabs li:nth-child(2):after{
+    content:"|";
+   margin: 5px;
+  position: relative;
+  top: -33px;
+  left: -7px;
+}
+
+.nav-tabs .nav-link{
+    border: 0px;
+}
+
+/*手機CSS*/
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    
+    .section{
+        padding: 30px;
+    } 
+
+    .mobile_picture_margin{
+        margin-top: 2px;
+    }
+}

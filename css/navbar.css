@@ -1,0 +1,146 @@
+/*pc nav bar*/
+
+body {
+    height: 2000px;
+}
+
+#mobile_nav {
+    display: none;
+}
+
+#header{
+    height: 70px;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    transition-duration: 1s;
+
+}
+
+#nav.addbg {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#logo h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+#logo h1.addfs {
+    color: white;
+}
+
+#navbar {
+    margin-right: 15px;
+}
+
+#navbar li {
+    margin-left: 3px;
+    height: 50px;
+}
+
+#navbar li:after {
+    content: "|";
+    margin-left: 6px;
+    position: relative;
+    top: -3px;
+}
+
+#navbar li a {
+    color: black;
+    font-size: 25px;
+    line-height: 115px;
+}
+
+#navbar li a.addfs {
+    color: white;
+}
+
+/*mobile bar*/
+
+@media screen and (min-width: 0px) and (max-width: 930px) {
+
+
+    #nav {
+        display: none;
+    }
+
+    hr {
+        border-color: white;
+    }
+
+    #mobile_nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        background: gray;
+    }
+
+    #mobile_button {
+        position: absolute;
+        top: 11%;
+        right: 3%;
+    }
+
+    #mobile_navbar {
+        background: black;
+        height: 100vh;
+        width: 100%;
+        transform: translate(1070px, 0px);
+        transition-duration: 0.5s;
+        position: absolute;
+        top: 0px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    #mobile_navbar li {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+
+
+    #mobile_navbar li a {
+        color: white;
+        font-size: 20px;
+        background: black;
+        position: relative;
+        top: 28px;
+        padding: 0 13px;
+    }
+
+
+    #mobile_navbar.show {
+        transform: translate(0px, 0px);
+        position: absolute;
+        top: 0px;
+    }
+
+    hr {
+        border-color: white;
+    }
+
+    #logo h1 {
+        font-size: 30px;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    #header{
+        height: 50px;
+    }
+}
+
