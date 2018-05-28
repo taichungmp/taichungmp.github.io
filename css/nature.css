@@ -15,6 +15,20 @@
     margin-bottom: 30px;
     text-align: center;
     font-weight: 900;
+    
+
+}
+
+.title:after{
+    content: "______";
+    position: relative;
+    top: 13px;
+    left: -86px;
+}
+
+.subtitle{
+    margin-bottom: 70px;
+    line-height: 40px;
 }
 
 .section.insect .title{
@@ -33,33 +47,54 @@
     margin-top: 7px;
 }
 
-.nav-tabs {
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #09345fab #09345fab #09345fab;
+}
+/* .nav-tabs {
     border-bottom: 0px solid #dee2e6;
 
-}
+} */
 
 .nav-item{
     margin-right: 0px;
 }
 
-.nav.nav-tabs li:nth-child(3):after, .nav.nav-tabs li:nth-child(2):after{
+/* .nav.nav-tabs li:nth-child(3):after, .nav.nav-tabs li:nth-child(2):after{
     content:"|";
    margin: 5px;
   position: relative;
   top: -33px;
   left: -7px;
-}
+} */
 
-.nav-tabs .nav-link{
+/* .nav-tabs .nav-link{
     border: 0px;
-}
+} */
 
 /*手機CSS*/
 
 
 
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 321px) and (max-width: 576px) {
     
+    .title{
+        margin-left: 22%;
+    }
+
+    .nav-tabs .nav-item {
+        padding: 0px;
+    }
+
+    .subtitle{
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 32px;
+        line-height: 24px;
+        
+    }
+
     .section{
         padding: 30px;
     } 
@@ -71,4 +106,11 @@
     .section.insect .title{
         margin-bottom: 40px;
     }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .title{
+        margin-left: 24%;
+    }
+    
 }
