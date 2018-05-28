@@ -3,7 +3,9 @@ a{
 }
 
 .index_section{
-    padding-top: 23vh;
+    position: fixed;
+    top: 25%;
+    left: 2%;
     line-height: 1.8;
 }
 
@@ -43,7 +45,8 @@ a:hover{
 /*detail_section*/
 
 .detail_section{
-    padding-top: 35vh;
+    position: fixed;
+        bottom: 5px;
 }
 
 .detail{
@@ -62,12 +65,19 @@ a:hover{
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
     .index_section{
+        position: fixed;
+        top: 10%;
+        line-height: 1.8;
+    }
+
+    .index_section{
         padding-top: 13vh;
         line-height: 1.8;
     }
 
     .detail_section{
-        padding-top: 15vh;
+        position: fixed;
+        bottom: 5px;
     }
 
     .detail{
