@@ -52,26 +52,19 @@
     background-color: #fff;
     border-color: #09345fab #09345fab #09345fab;
 }
-/* .nav-tabs {
-    border-bottom: 0px solid #dee2e6;
 
-} */
 
 .nav-item{
     margin-right: 0px;
 }
 
-/* .nav.nav-tabs li:nth-child(3):after, .nav.nav-tabs li:nth-child(2):after{
-    content:"|";
-   margin: 5px;
-  position: relative;
-  top: -33px;
-  left: -7px;
-} */
+/*copyright*/
 
-/* .nav-tabs .nav-link{
-    border: 0px;
-} */
+.copyright{
+    margin-left: 5px;
+}
+
+
 
 /*手機CSS*/
 
