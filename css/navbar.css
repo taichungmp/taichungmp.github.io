@@ -80,12 +80,12 @@ body {
         position: fixed;
         width: 100%;
         z-index: 1;
-        background: gray;
+        background: #6aa587;
     }
 
     #mobile_button {
         position: absolute;
-        top: 34%;
+        top: 27%;
         right: 3%;
     }
 
@@ -136,7 +136,11 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
     #header{
-        height: 50px;
+        height: 30px;
+    }
+
+    #logo img{
+        height: 60px;
     }
 }
 
