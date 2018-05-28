@@ -1,38 +1,156 @@
-p{
+p {
     line-height: 2.5;
 }
 
-#section{
-    padding:100px 0px;
+#section {
+    padding: 100px 0px;
 }
 
 /*copyright*/
 
-.copyright{
+.copyright {
     margin-left: 5px;
 }
 
+/*banner*/
 
+#banner {
+    background: url('../img/park-1140x641.gif');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.banner_title {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 60px;
+}
 
 /*section*/
 
-.move_postion> img:nth-child(1){
-    transform: translate(20px, 0px);
-    z-index: 1;
+.dynasty {
+    font-weight: 900;
 }
 
-.move_postion> img:nth-child(2){
-    transform: translate(51px, 14px);
-    z-index: 1;
+.period {
+    margin-top: 15px;
 }
 
-.section_b_move_postion> img:nth-child(1){
-    transform: translate(-15px, 0px);
-    z-index: 1;
+.story {
+    margin-top: 30px;
 }
 
-.section_b_move_postion> img:nth-child(2){
-    transform: translate(-51px, 14px);
-    z-index: 1;
+/*graphic/*/
+
+#graphic {
+    background: url('../img/scene3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.graphic_title {
+    font-weight: 900;
+    margin-top: 110px;
+}
+
+.graphic_description {
+    line-height: 25px;
+}
+
+/*footer*/
+
+#footer {
+    background: #9ad89a38;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    p {
+        line-height: 1.8;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #section {
+        padding: 50px 0px;
+    }
+    p {
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    .banner_title {
+        top: 31%;
+        left: 26%;
+        
+    }
+    .period {
+        margin-top: 15px;
+    }
+    .story {
+        margin-top: 30px;
+    }
+    .story_img {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    #section {
+        padding: 25px 0px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .banner_title {
+        top: 31%;
+        left: 28%;
+        font-size: 40px;
+    }
+    p {
+        line-height: 1.4;
+    }
+    .period {
+        margin-top: 15px;
+    }
+    .story {
+        margin-top: 15px;
+    }
+    .copyright {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #section {
+        padding: 30px 0px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .banner_title {
+        top: 31%;
+        left: 26%;
+        font-size: 40px;
+    }
+    p {
+        line-height: 1.4;
+    }
+    .period {
+        margin-top: 7px;
+    }
+    .story {
+        margin-top: 15px;
+    }
+    .copyright {
+        margin-left: 0px;
+        font-size: 10px;
+    }
 }
