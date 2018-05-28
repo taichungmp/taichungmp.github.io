@@ -37,7 +37,7 @@ body {
 }
 
 #navbar {
-    margin-right: 15px;
+    margin-right: 82px;
 }
 
 #navbar li {
@@ -63,6 +63,12 @@ body {
 }
 
 /*mobile bar*/
+
+@media screen and (min-width: 931px) and (max-width: 993px) {
+    #navbar {
+        margin-right: -15px;
+    }
+}
 
 @media screen and (min-width: 0px) and (max-width: 930px) {
 
