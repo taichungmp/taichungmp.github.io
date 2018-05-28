@@ -1,0 +1,31 @@
+p{
+    line-height: 2.5;
+}
+
+#section{
+    padding:100px 0px;
+}
+
+
+
+/*section*/
+
+.move_postion> img:nth-child(1){
+    transform: translate(20px, 0px);
+    z-index: 1;
+}
+
+.move_postion> img:nth-child(2){
+    transform: translate(51px, 14px);
+    z-index: 1;
+}
+
+.section_b_move_postion> img:nth-child(1){
+    transform: translate(-15px, 0px);
+    z-index: 1;
+}
+
+.section_b_move_postion> img:nth-child(2){
+    transform: translate(-51px, 14px);
+    z-index: 1;
+}
