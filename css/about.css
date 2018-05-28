@@ -57,10 +57,12 @@ p {
 .graphic_title {
     font-weight: 900;
     margin-top: 110px;
+    color: white;
 }
 
 .graphic_description {
     line-height: 25px;
+    color: white;
 }
 
 /*footer*/
