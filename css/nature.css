@@ -13,7 +13,7 @@
 
     text-transform: capitalize;
     margin-bottom: 30px;
-    text-align: center;
+    margin-left: 45%;
     font-weight: 900;
     
 
@@ -80,7 +80,7 @@
 @media screen and (min-width: 321px) and (max-width: 576px) {
     
     .title{
-        margin-left: 22%;
+        margin-left: 31%;
     }
 
     .nav-tabs .nav-item {
@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
     .title{
-        margin-left: 24%;
+        margin-left: 31%;
     }
     
 }
