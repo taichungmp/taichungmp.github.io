@@ -19,12 +19,6 @@
 
 }
 
-.title:after{
-    content: "______";
-    position: relative;
-    top: 13px;
-    left: -86px;
-}
 
 .subtitle{
     margin-bottom: 70px;
@@ -33,6 +27,13 @@
 
 .section.insect .title{
     margin-bottom: 80px;
+}
+
+/*虛線效果*/
+
+hr{
+    margin-top: 90px;
+    margin-bottom: 40px;
 }
 
 /*圖片放大效果*/
@@ -68,12 +69,21 @@
 
 /*手機CSS*/
 
-
+@media screen and (min-width: 577px) and (max-width: 1140px) {
+    .title{
+        margin-left: 43%;
+    }
+}
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     
     .title{
-        margin-left: 31%;
+        margin-left: 34%;
+    }
+
+    hr{
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .nav-tabs .nav-item {
@@ -103,7 +113,12 @@
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
     .title{
-        margin-left: 31%;
+        margin-left: 33%;
+    }
+
+    hr{
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
 }
