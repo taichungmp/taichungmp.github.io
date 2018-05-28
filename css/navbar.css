@@ -10,7 +10,7 @@ body {
 
 #header{
     height: 44px;
-    background: #77947c;
+    background: white;
 }
 
 #nav {
@@ -80,7 +80,7 @@ body {
         position: fixed;
         width: 100%;
         z-index: 1;
-        background: #6aa587;
+        background: #8aa9a6;
     }
 
     #mobile_button {
