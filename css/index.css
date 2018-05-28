@@ -59,3 +59,30 @@ a:hover{
     font-size: 15px;
     letter-spacing: 3px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .index_section{
+        padding-top: 13vh;
+        line-height: 1.8;
+    }
+
+    .detail_section{
+        padding-top: 15vh;
+    }
+
+    .detail{
+        color: white;
+        font-weight: 200;
+        font-size: 5px;
+        letter-spacing: 3px;
+      
+    }
+    
+    .detail_section{
+        display: block;
+        font-weight: 200;
+        font-size: 5px;
+        letter-spacing: 3px;
+    }
+
+}
