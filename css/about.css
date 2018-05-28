@@ -126,6 +126,10 @@ p {
         margin-left: 0px;
         font-size: 10px;
     }
+
+    .add_margin{
+        margin-top:20px;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
@@ -152,5 +156,8 @@ p {
     .copyright {
         margin-left: 0px;
         font-size: 10px;
+    }
+    .add_margin{
+        margin-top: 10px;
     }
 }
