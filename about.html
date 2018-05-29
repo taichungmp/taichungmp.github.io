@@ -124,16 +124,16 @@
                 <li class="is-hidden timeline-item">
                     <!-- Normal block, positionned to the left -->
                     <img src="img/02-about-500x333.gif" class="img-fluid grow" alt="">
-                    <p>郁永河《裨海紀遊》曾紀錄 三百年前，此地曾是一片蓊鬱綠樹林。
+                    <p>《裨海紀遊》曾紀錄 三百年前，此地曾是一片蓊鬱綠樹林。
                     </p>
                 </li>
             </ul>
             <h2>日治時期</h2>
             <ul class="timeline-items">
-                <li class="is-hidden timeline-item inverted">
+                <li class="remove is-hidden timeline-item inverted">
                     <!-- Normal block, positionned to the right  -->
                     <img src="img/10-about-800x561.gif" class="img-fluid grow" alt="">
-                    <p>曾被大量砍伐相思樹以種植甘蔗，而形成一望無際的蔗田景觀。
+                    <p>曾被大量砍伐相思樹種植甘蔗，形成一望無際的蔗田景觀。
                     </p>
                 </li>
             </ul>
@@ -141,11 +141,11 @@
             <ul class="timeline-items">
                 <li class="is-hidden timeline-item">
                     <img src="img/09-about-3840x2400.jpg" class="img-fluid grow" alt="">
-                    <p>1992年，依內政部營建署《臺灣地區都會區域休閒設施發展方案》規劃建置公園。 </p>
+                    <p>1992年，依《臺灣地區都會區域休閒設施發展方案》規劃建置公園。 </p>
                 </li>
-                <li class="is-hidden timeline-item inverted">
+                <li class="remove is-hidden timeline-item inverted">
                     <img src="img/08-about-780x585.jpg" class="img-fluid grow" alt="">
-                    <p>1994年，公園動工，採大型開放空間結合廣大綠地營造綠地美化的視覺景觀，附設多樣性遊憩活動、自然環境保育區域。</p>
+                    <p>1994年，公園動工，廣大綠地營造綠地美化的視覺景觀。</p>
                 </li>
                 <li class="is-hidden timeline-item">
                     <img src="img/06-about-500x285.gif" class="img-fluid grow" alt="">
@@ -187,6 +187,20 @@
     <script>
         $(document).ready(function () {
 
+            remove_timeline();
+
+            function remove_timeline() {
+                var wdth = $(window).width();
+                if (wdth < 576) {
+                    $('.remove').removeClass('inverted');
+                } else {
+                    $('.remove').addClass('inverted');
+                }
+            }
+
+            $(window).resize(function () {
+                remove_timeline();
+            });
 
             //   寫出滑鼠滾輪事件
             $(window).scroll(function () {

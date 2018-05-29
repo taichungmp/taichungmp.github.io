@@ -62,4 +62,24 @@ p{
     line-height: 1.5;
     margin-top: 10px;
 }
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right:-20%;
+        margin: 0 auto;
+        height: 100%;
+        width: 4px;
+        background-color: #5b5555;
+    }
+    .timeline .timeline-items .timeline-item {
+        position: relative;
+        margin-bottom: 100px;
+        left: 30px;
+        padding: 20px;
+        background-color: white;
+        width: 64%;
+    }
+}
 
