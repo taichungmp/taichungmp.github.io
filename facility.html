@@ -254,8 +254,34 @@
     <script src="jss/aos.js"></script>
     <script>
         $(document).ready(function () {
+            
+            swiperNum();
+            
+            function swiperNum() {
 
-
+                var wdth = $(window).width();
+                if (wdth > 1100 && wdth < 1350) {
+                    var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 5,
+                        slidesPerGroup: 2,
+                    });
+                } else if (wdth > 650 && wdth < 1100) {
+                    var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 3,
+                        slidesPerGroup: 1,
+                    });
+                } else if (wdth > 450 && wdth < 650) {
+                    var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                    });
+                } else if (wdth > 0 && wdth < 450) {
+                    var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 1,
+                        slidesPerGroup: 1,
+                    });
+                }
+            }
             //   寫出滑鼠滾輪事件
             $(window).scroll(function () {
                 //  用變數儲存瀏覽器的高度
@@ -317,15 +343,62 @@
                 prevEl: '.swiper-button-prev',
             },
         });
- console.log(new Swiper.originalParams
-);
 
-         swiper.on('resize', function () {
-             var wdth = $(window).width();
-         if (wdth < 1350) {
-            Swiper.slidesPerView =4;
-             }
-         });
+
+
+
+        swiper.on('resize', function () {
+
+            var wdth = $(window).width();
+            if (wdth > 1100 && wdth < 1350) {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 5,
+                    slidesPerGroup: 2,
+                });
+            } else if (wdth > 650 && wdth < 1100) {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 3,
+                    slidesPerGroup: 1,
+                });
+            } else if (wdth > 450 && wdth < 650) {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 2,
+                    slidesPerGroup: 1,
+                });
+            } else if (wdth > 0 && wdth < 450) {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                });
+            }
+        });
+
+        //      swiper.on('resize', function () {
+
+        //       var wdth = $(window).width();
+        //       if (wdth < 1100) {
+        //       var swiper = new Swiper('.swiper-container', {
+        //       slidesPerView: 3,});
+        //    }
+        //    });
+
+        //     swiper.on('resize', function () {
+
+        //       var wdth = $(window).width();
+        //    if (wdth < 650) {
+        //       var swiper = new Swiper('.swiper-container', {
+        //       slidesPerView: 2,});
+        //    }
+        //    });
+
+        //     swiper.on('resize', function () {
+
+        //       var wdth = $(window).width();
+        //    if (wdth < 450) {
+        //       var swiper = new Swiper('.swiper-container', {
+        //       slidesPerView: 1,});
+        //    }
+        //    });
     </script>
 </body>
 

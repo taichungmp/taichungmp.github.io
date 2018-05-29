@@ -30,20 +30,21 @@ p {
     font-weight: 900;
     font-size: 60px;
     color: white;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 /*scene_path*/
-#scene_path{
+
+#scene_path {
     padding: 100px 0px;
 }
 
-.scene_path_title, .scene_path_name {
+.scene_path_title,
+.scene_path_name {
     font-weight: 900;
 }
 
-
-.scene_path_img{
+.scene_path_img {
     border-radius: 300px;
     height: 200px;
     width: 200px;
@@ -64,40 +65,38 @@ p {
 }
 
 /*swiper*/
-html, body {
+
+html,
+body {
     position: relative;
-    
-  }
- 
-  .swiper-container {
+}
+
+.swiper-container {
     width: 100%;
     height: 300px;
-    background:#383333;
-  }
-  .swiper-slide {
+    background: #383333;
+}
+
+.swiper-slide {
     text-align: center;
     font-size: 18px;
-  
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
-    -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
 /*castle*/
 
 .dynasty {
     font-weight: 900;
-
 }
 
 .period {
@@ -108,13 +107,11 @@ html, body {
     margin-top: 30px;
 }
 
-.story_img{
-    height: 500px;
+
+.add_margin {
+    margin-top: 10px;
 }
 
-.add_margin{
-    margin-top:150px;
-}
 /*graphic/*/
 
 #graphic {
@@ -142,7 +139,7 @@ html, body {
     margin: 0px;
 }
 
-.copyright{
+.copyright {
     color: white;
 }
 
@@ -160,14 +157,15 @@ html, body {
         line-height: 1.5;
         font-size: 15px;
     }
-
-    #banner{
+    #banner {
         height: 150px;
     }
     .banner_title {
         top: 31%;
         left: 26%;
-        
+    }
+    .add_margin {
+        margin-top: 20px;
     }
     .period {
         margin-top: 15px;
@@ -184,7 +182,7 @@ html, body {
     #section {
         padding: 25px 0px;
     }
-    #banner{
+    #banner {
         height: 150px;
     }
     .banner_title {
@@ -205,9 +203,8 @@ html, body {
         margin-left: 0px;
         font-size: 10px;
     }
-
-    .add_margin{
-        margin-top:19px;
+    .add_margin {
+        margin-top: 19px;
     }
 }
 
@@ -215,7 +212,7 @@ html, body {
     #section {
         padding: 30px 0px;
     }
-    #banner{
+    #banner {
         height: 150px;
     }
     .banner_title {
@@ -236,7 +233,7 @@ html, body {
         margin-left: 0px;
         font-size: 10px;
     }
-    .add_margin{
+    .add_margin {
         margin-top: 19px;
     }
 }
