@@ -15,7 +15,7 @@
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 99999999;
+    z-index: 999;
     transition-duration: 1s;
 
 }
