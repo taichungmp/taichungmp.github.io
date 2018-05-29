@@ -87,8 +87,8 @@
                     </div>
                     <div class="col-3 text-right">
                         <div>
-                            <i class="fab fa-facebook-square icon  fa-2x"></i>
-                            <i class="fab fa-youtube-square icon fa-2x mr-4 "></i>
+                            <i class="fab fa-facebook-square icon  fa-2x" style="color:#57678F"></i>
+                            <i class="fab fa-youtube-square icon fa-2x mr-4 " style="color:#C4032B"></i>
                         </div>
                     </div>
                 </div>
@@ -167,10 +167,10 @@
         <div class="contaier text-center mt-3">
             <ul class="list-inline">
                 <li class="list-inline-item">
-                    <i class="far fa-copyright"></i>
+                    <i class="far fa-copyright" style="color:white"></i>
                     <span class="copyright">台中都會公園 2018 |</span>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item" style="color:white">
                     <i class="far fa-copyright"></i>
                     <span class="copyright">2018 僅用於課程學習用途，素材如侵權，請來信告知。</span>
                 </li>
@@ -203,14 +203,18 @@
                 }
             })
 
-            $(window).scroll(function () {
+             $(window).scroll(function () {
                 var window_height = $(window).scrollTop();
                 if (window_height > 0) {
                     $('#nav').addClass('addbg');
+                    $('#mobile_nav').addClass('addbg')
+                    $('#mobile_button').addClass('addbc')
                     $('#logo img').attr('src', 'img/logo-taichungmp.svg');
                     $('#navbar li a').addClass('addfs');
                 } else {
                     $('#nav').removeClass('addbg');
+                    $('#mobile_nav').removeClass('addbg')
+                    $('#mobile_button').removeClass('addbc')
                     $('#logo img').attr('src', 'img/logo2.svg')
                     $('#navbar li a').removeClass('addfs');
                 }

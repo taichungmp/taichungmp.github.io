@@ -94,9 +94,13 @@ p {
 /*footer*/
 
 #footer {
-    background: gray;
+    background: #373837;
     padding: 10px 0px;
     margin: 0px;
+}
+
+.copyright{
+    color: white;
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -147,7 +151,7 @@ p {
         padding: 25px 0px;
     }
     #banner{
-        height: 200px;
+        height: 150px;
     }
     .banner_title {
         top: 34%;
@@ -213,7 +217,7 @@ p {
         padding: 30px 0px;
     }
     #banner{
-        height: 200px;
+        height: 150px;
     }
     .banner_title {
         top: 31%;

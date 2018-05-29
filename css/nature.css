@@ -1,133 +1,178 @@
 /*全域設定*/
 
-
-.section{
+.section {
     padding: 70px 0px;
 }
 
-.name{
+.name {
     margin-top: 10px;
 }
 
-.title{
-
+.title {
     text-transform: capitalize;
     margin-bottom: 30px;
     margin-left: 45%;
     font-weight: 900;
-    
-
+    color: #683A25;
 }
 
-
-.subtitle{
+.subtitle {
     margin-bottom: 70px;
     line-height: 40px;
 }
 
-.section.insect .title{
+.section.insect .title {
     margin-bottom: 80px;
+}
+
+/*banner*/
+
+#banner {
+    background: url('../img/fort07-960x640.jpg');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-y: 70%;
+}
+
+.banner_title {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 /*虛線效果*/
 
-.dotted{
+.dotted {
     margin-top: 90px;
     margin-bottom: 40px;
 }
 
 /*圖片放大效果*/
 
-.grow { transition: all .2s ease-in-out; }
+.grow {
+    transition: all .2s ease-in-out;
+}
 
-.grow:hover { transform: scale(1.1); }
+.grow:hover {
+    transform: scale(1.1);
+}
 
 /*分頁效果css*/
 
-.pc_picture_margin{
+.pc_picture_margin {
     margin-top: 7px;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     color: #495057;
     background-color: #fff;
     border-color: #09345fab #09345fab #09345fab;
 }
 
-
-.nav-item{
+.nav-item {
     margin-right: 0px;
 }
 
 /*copyright*/
 
-.copyright{
-    margin-left: 5px;
+#footer {
+    background: #373837;
+    padding: 10px 0px;
+    margin: 0px;
 }
 
-
+.copyright {
+    color: white;
+    margin-left: 5px;
+}
 
 /*手機CSS*/
 
 @media screen and (min-width: 577px) and (max-width: 1140px) {
-    .title{
+    .title {
         margin-left: 43%;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
-    
-    .title{
+    #banner {
+        height: 150px;
+    }
+    .banner_title {
+        position: absolute;
+        top: 31%;
+        left: 26%;
+        letter-spacing: 3px;
+        font-weight: 900;
+        font-size: 40px;
+        color: white;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+    .title {
         margin-left: 34%;
     }
-
-    .dotted{
+    .dotted {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
     .nav-tabs .nav-item {
         padding: 0px;
     }
-
-    .subtitle{
+    .subtitle {
         font-size: 15px;
         line-height: 30px;
         margin-bottom: 32px;
         line-height: 23px;
-        
     }
-
-    .section{
+    .section {
         padding: 30px;
-    } 
-
-    .mobile_picture_margin{
+    }
+    .mobile_picture_margin {
         margin-top: 2px;
     }
-
-    .section.insect .title{
+    .section.insect .title {
         margin-bottom: 40px;
     }
-    .copyright{
+    .copyright {
         margin-left: 0px;
         font-size: 10px;
     }
 }
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
-    .title{
+    .section {
+        padding: 30px 0px;
+    }
+    .banner_title {
+        position: absolute;
+        top: 31%;
+        left: 26%;
+        letter-spacing: 3px;
+        font-weight: 900;
+        font-size: 40px;
+        color: white;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+    #banner {
+        height: 150px;
+    }
+    .title {
         margin-left: 33%;
     }
-
-    .dotted{
+    .dotted {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
-    .copyright{
+    .copyright {
         margin-left: 0px;
         font-size: 10px;
     }
-    
 }

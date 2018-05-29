@@ -87,26 +87,32 @@
                     </div>
                     <div class="col-3 text-right">
                         <div>
-                            <i class="fab fa-facebook-square icon  fa-2x"></i>
-                            <i class="fab fa-youtube-square icon fa-2x mr-4 "></i>
+                            <i class="fab fa-facebook-square icon  fa-2x" style="color:#57678F"></i>
+                            <i class="fab fa-youtube-square icon fa-2x mr-4 " style="color:#C4032B"></i>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
-
         </div>
     </div>
+
+    
+    <div id="banner">
+            <div class="container">
+    
+                <h1 class="banner_title ">生態特色</h1>
+    
+            </div>
+        </div>
+    
+
+
+
 
     <div class="section animal">
         <div class="container">
             <h2 class="title">動物區</h2>
-            <h5 class="col-lg-6 offset-lg-3 col-12 text-center subtitle">Lorem, ipsum dolor sit amet consectetur adipisicue soluta esse odit assumenda iste sequi facere vel molestias,
-                quam quidem laboriosam tempore. Voluptatem libero labore exercitationem eligendi eveniet! Aperiam.</h5>
+            <p class="col-lg-6 offset-lg-3 col-12 text-center subtitle">動物天生有迷人的氣質，我們平常對貓、狗、小老鼠、兔子等可愛的動物的生活習性瞭諾指掌，可是這個世界上有許多動物是我們一無所知得，園區棲息著許多的小動物，大家快去一探究竟吧!</p>
             <hr class="dotted" style="border: 1px dotted black">
             <div class="row">
                 <div class="col-12 mb-5">
@@ -241,8 +247,9 @@
     <div class="section plant">
         <div class="container">
             <h2 class="title">植物區</h2>
-            <h5 class="col-lg-6 offset-lg-3 col-12 subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicue soluta esse odit assumenda iste sequi facere vel molestias,
-                quam quidem laboriosam tempore. Voluptatem libero labore exercitationem eligendi eveniet! Aperiam.</h5>
+            <p class="col-lg-6 offset-lg-3 col-12 subtitle text-center">你曾停下來觀察過身邊的值物嗎?
+                <br>這些值物到底哪裡不一樣呢?
+                <br>你知道他們的名字嗎?讓我們一起來觀察值物吧!</p>
             <hr class="dotted" style="border: 1px dotted black">
             <div class="row mb-5">
                 <div class="col-12">
@@ -351,11 +358,11 @@
         <div class="contaier text-center">
             <ul class="list-inline">
                 <li class="list-inline-item">
-                    <i class="far fa-copyright"></i>
+                    <i class="far fa-copyright" style="color:white"></i>
                     <span class="copyright">台中都會公園 2018 |</span>
                 </li>
                 <li class="list-inline-item">
-                    <i class="far fa-copyright"></i>
+                    <i class="far fa-copyright" style="color:white"></i>
                     <span class="copyright">2018 僅用於課程學習用途，素材如侵權，請來信告知。</span>
                 </li>
             </ul>
@@ -392,10 +399,14 @@
                 var window_height = $(window).scrollTop();
                 if (window_height > 0) {
                     $('#nav').addClass('addbg');
+                    $('#mobile_nav').addClass('addbg')
+                    $('#mobile_button').addClass('addbc')
                     $('#logo img').attr('src', 'img/logo-taichungmp.svg');
                     $('#navbar li a').addClass('addfs');
                 } else {
                     $('#nav').removeClass('addbg');
+                    $('#mobile_nav').removeClass('addbg')
+                    $('#mobile_button').removeClass('addbc')
                     $('#logo img').attr('src', 'img/logo2.svg')
                     $('#navbar li a').removeClass('addfs');
                 }

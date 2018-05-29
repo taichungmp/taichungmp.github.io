@@ -6,6 +6,16 @@
     display: none;
 }
 
+#mobile_nav.addbg {
+    background:#373837;
+    color: white;
+}
+
+#mobile_button.addbc{
+    border-color: white;
+    color: white;
+}
+
 #header{
     height: 44px;
     background: white;
@@ -21,7 +31,7 @@
 }
 
 #nav.addbg {
-    background: rgba(0, 0, 0, 0.9);
+    background:#373837;
     color: white;
 }
 
@@ -30,28 +40,20 @@
     height: 81px;
 }
 
-#logo h1.addfs {
-    color: white;
-}
 
 #navbar {
     margin-right: 82px;
 }
 
 #navbar li {
-    margin-left: 3px;
+    margin-left: 10px;
     height: 50px;
 }
 
-#navbar li:after {
-    content: "|";
-    margin-left: 6px;
-    position: relative;
-    top: -1px;
-}
+
 
 #navbar li a {
-    color: black;
+    color: #CC9B6F;
     font-size: 15px;
     line-height: 94px;
 }
@@ -91,7 +93,7 @@
         position: fixed;
         width: 100%;
         z-index: 999;
-        background: #8aa9a6;
+        background: white;
     }
 
     #mobile_button {
