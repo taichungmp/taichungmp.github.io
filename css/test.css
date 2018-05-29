@@ -1,0 +1,65 @@
+
+/*卡片顏色*/
+
+.timeline .timeline-items .timeline-item:nth-of-type(2n+1) {
+    background-color: #141c1d24;
+    color: black;
+
+}
+
+.timeline .timeline-items .timeline-item:nth-of-type(2n+1)::before {
+    border-top: 1em solid #141c1d24;
+    border-right: 1em solid transparent;
+  
+}
+
+.timeline .timeline-items .timeline-item.inverted:nth-of-type(2n+1) {
+    background-color: #141c1d24;
+    color: black;
+}
+
+.timeline .timeline-items .timeline-item.inverted:nth-of-type(2n+1)::before {
+    border-top: 1em solid #141c1d24;
+    border-right: 1em solid transparent;
+}
+
+.timeline .timeline-items .timeline-item.inverted:nth-of-type(2n) {
+    background-color: #141c1d24;
+    color: black;
+    }
+
+.timeline .timeline-items .timeline-item.inverted:nth-of-type(2n)::before {
+    border-top: 1em solid #141c1d24;
+    border-right: 1em solid transparent;
+        }
+
+/*timeline*/
+
+#timeline{
+    margin: 50px auto;
+   
+}
+
+#timeline .timeline{
+    overflow: hidden;
+}
+
+/*hr*/
+
+#mystyle{
+    border: 1px solid black;
+}
+
+
+/*banner*/
+
+#banner{
+    background: url('../img/20180513_172938.jpg')
+}
+
+
+p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
