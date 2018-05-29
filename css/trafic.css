@@ -1,0 +1,249 @@
+p {
+    line-height: 2.5;
+}
+
+#section {
+    padding: 100px 0px;
+}
+
+/*copyright*/
+
+.copyright {
+    margin-left: 5px;
+}
+
+/*banner*/
+
+#banner {
+    background: url('../img/transportation.jpg');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-y: 70%;
+}
+
+.banner_title {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+/*section1*/
+
+.public_transportation{
+     font-weight: 900;
+     font-size: 40px;
+     margin-top: 30px;
+}
+
+.transportation_info{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.bus_info{
+    border: 1px solid #1b474e;
+    padding: 10px 100px;
+    color: black;
+    margin-top: 50px;
+ }
+
+ .bus_info:hover{
+     background: gray;
+ }
+
+/*section2*/
+.drive{ font-weight: 900;
+    font-size: 40px;
+   }
+.high_speed_way{
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+/*section4*/
+#address{
+    padding: 20px 0px;
+}
+
+.address{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+
+/*footer*/
+
+#footer {
+    background: gray;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    p {
+        line-height: 1.8;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #section {
+        padding: 50px 0px;
+    }
+    p {
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    
+    .banner_title {
+        top: 31%;
+        left: 26%;
+        
+    }
+    .period {
+        margin-top: 15px;
+    }
+    .story {
+        margin-top: 30px;
+    }
+    .story_img {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    #section {
+        padding: 25px 0px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .banner_title {
+        top: 34%;
+        left: 28%;
+        font-size: 40px;
+    }
+    .public_transportation{
+        font-size: 25px;
+        margin-top: 15px;
+   }
+   
+   .transportation_info{
+       font-size: 10px;
+       letter-spacing: 1px;
+       font-weight: 300;
+       margin-top: 20px;
+   }
+   .drive{ 
+    font-size: 25px;
+   }
+
+   .high_speed_way{
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+   
+   .bus_info{
+       border: 1px solid #1b474e;
+       padding: 10px 70px;
+       color: black;
+       margin-top: 20px;
+    }
+    p {
+        line-height: 1.4;
+    }
+   
+    .copyright {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .add_margin{
+        margin-top:19px;
+    }
+    iframe {
+        height: 250px;
+    }
+    .address{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #section {
+        padding: 30px 0px;
+    }
+    #banner{
+        height: 200px;
+    }
+    .banner_title {
+        top: 31%;
+        left: 26%;
+        font-size: 40px;
+    }
+    .public_transportation{
+        font-size: 25px;
+        margin-top: 15px;
+   }
+   
+   .transportation_info{
+       font-size: 10px;
+       letter-spacing: 1px;
+       font-weight: 300;
+       margin-top: 20px;
+   }
+   .drive{ 
+    font-size: 25px;
+   }
+
+   .high_speed_way{
+    margin: 10px 0px;
+    font-size: 8px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+   
+   .bus_info{
+       border: 1px solid #1b474e;
+       padding: 10px 70px;
+       color: black;
+    }
+    p {
+        line-height: 1.4;
+    }
+   
+    .copyright {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .add_margin{
+        margin-top: 19px;
+    }
+    iframe {
+        height: 250px;
+    }
+
+    .address{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+}
