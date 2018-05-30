@@ -119,14 +119,14 @@ body{
     width: 46.5%;
     padding: 43px 50px;
     margin: 0 20px 0 0;
-    background: rgba(255,255,255,0);
+    background: rgba(0,0,0,0.8);
     position: relative;
     box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2), 0 20px 20px 0 rgba(0,0,0,0.19);
 }
 
 .main-timeline .timeline-content:after {
     content: "";
-    border-left: 20px solid #f2f2f2;
+    border-left: 20px solid rgba(0,0,0,0.8);
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     position: absolute;
@@ -183,7 +183,7 @@ body{
 
 .main-timeline .timeline:nth-child(2n) .timeline-content:after {
     border-left: none;
-    border-right: 20px solid #f2f2f2;
+    border-right: 20px solid rgba(0,0,0,0.8);
     right: auto;
     left: -20px;
 }
