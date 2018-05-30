@@ -233,30 +233,26 @@
                     $('#back-to-top').removeClass('show');
                 }
             })
-         
 
-           $(window).scroll(function(){
-            var window_height = $(window).scrollTop();
-            if(window_height>0 && window_height<500){
-                $("body").css(
-                    "background-image", "url('img/forest-bg.jpg')",
-                    
-                );
-            }else if(window_height>500 && window_height<1000){
-                $("body").css(
-                    "background-image", "url('img/sugar-cane-bg.jpg')",
+
+            $(window).scroll(function () {
+                var window_height = $(window).scrollTop();
+                if (window_height > 0 && window_height < 600) {
+                    $("body").css(
+                        "background-image", "url('img/forest-bg-1920x1080.jpg')",
+
                     );
-            }else if(window_height>1000 && window_height<1500){
-                $("body").css(
-                    "background-image", "url('img/02-about-500x333.gif')",
-                    
-                );
-            }else if(window_height>1500 && window_height<2000){
-                $("body").css(
-                    "background-image", "url('img/10-about-800x561.gif')",
+                } else if (window_height > 600 && window_height < 1100) {
+                    $("body").css(
+                        "background-image", "url('img/sugar-cane-1920x1080bg.jpg')",
+
                     );
-            }
-           })
+                } else if (window_height > 1100 && window_height < 2400) {
+                    $("body").css(
+                        "background-image", "url('img/now-bg-1920x1080.jpg')",
+                    );
+                }
+            })
 
             $(window).scroll(function () {
                 var window_height = $(window).scrollTop();
@@ -283,7 +279,7 @@
                 $('#mobile_navbar').removeClass('show');
             })
 
-        AOS.init();
+            AOS.init();
 
         });
 

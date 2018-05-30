@@ -97,7 +97,7 @@ body{
     margin: 0;
     font-size: 14px;
     color: #fff;
-    background: rgba(0,0,0,0.8);;
+    background: rgba(0,0,0,0.5);;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -107,7 +107,7 @@ body{
 
 .main-timeline .year:before {
     content: "";
-    border-right: 18px solid rgba(0,0,0,0.8);
+    border-right: 18px solid rgba(0,0,0,0.5);
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     position: absolute;
@@ -119,14 +119,14 @@ body{
     width: 46.5%;
     padding: 43px 50px;
     margin: 0 20px 0 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.5);
     position: relative;
     box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2), 0 20px 20px 0 rgba(0,0,0,0.19);
 }
 
 .main-timeline .timeline-content:after {
     content: "";
-    border-left: 20px solid rgba(0,0,0,0.8);
+    border-left: 20px solid rgba(0,0,0,0.5);
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     position: absolute;
@@ -171,7 +171,7 @@ body{
 .main-timeline .timeline:nth-child(2n) .year:before {
     border: 18px solid transparent;
     border-right: none;
-    border-left: 18px solid rgba(0,0,0,0.8);
+    border-left: 18px solid rgba(0,0,0,0.5);
     left: auto;
     right: -18px;
 }
@@ -294,7 +294,7 @@ body{
 /*banner*/
 
 #banner {
-    background: url('../img/20180513_172938.jpg')
+    background: url('../img/history-title-bg.jpg')
 }
 
 p {
