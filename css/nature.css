@@ -1,7 +1,15 @@
 /*全域設定*/
 
+body{
+    background: url('../img/nature-bg.png');
+}
+
+
+
 .section {
-    padding: 70px 0px;
+    margin: 70px auto;
+    background: white;
+    max-width: 1140px;;
 }
 
 .name {
@@ -41,9 +49,9 @@ a{
 }
 
 .banner_title {
-    position: absolute;
-    top: 25%;
-    left: 40%;
+    text-align: center;
+    position: relative;
+    top: 50px;
     letter-spacing: 3px;
     font-weight: 900;
     font-size: 60px;
@@ -113,14 +121,8 @@ a{
         height: 150px;
     }
     .banner_title {
-        position: absolute;
-        top: 34%;
-        left: 28%;
-        letter-spacing: 3px;
-        font-weight: 900;
-        font-size: 40px;
-        color: white;
-        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+       position: relative;
+       font-size: 40px;
     }
     .title {
         margin-left: 34%;
@@ -158,14 +160,7 @@ a{
         padding: 30px 0px;
     }
     .banner_title {
-        position: absolute;
-        top: 31%;
-        left: 26%;
-        letter-spacing: 3px;
-        font-weight: 900;
-        font-size: 40px;
-        color: white;
-        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+       font-size: 40px;
     }
     #banner {
         height: 150px;
