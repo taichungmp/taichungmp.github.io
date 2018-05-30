@@ -85,8 +85,8 @@
                     </div>
                     <div class="col-3 text-right">
                         <div>
-                            <i class="fab fa-facebook-square icon  fa-2x" style="color:#57678F"></i>
-                            <i class="fab fa-youtube-square icon fa-2x mr-4 " style="color:#C4032B"></i>
+                            <i class="fab fa-facebook-square icon  fa-2x" style="color:#57678F; "></i>
+                            <i class="fab fa-youtube-square icon fa-2x mr-4 " style="color:#C4032B;"></i>
                         </div>
                     </div>
                 </div>
@@ -178,11 +178,6 @@
                     <img src="http://via.placeholder.com/200x200" alt="">
                 </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
 
 
@@ -254,31 +249,51 @@
     <script src="jss/aos.js"></script>
     <script>
         $(document).ready(function () {
-            
+
             swiperNum();
-            
+
             function swiperNum() {
 
                 var wdth = $(window).width();
                 if (wdth > 1100 && wdth < 1350) {
                     var swiper = new Swiper('.swiper-container', {
                         slidesPerView: 5,
-                        slidesPerGroup: 2,
+                        slidesPerGroup: 1,
+                        autoplay: {
+                            delay: 700,
+                            disableOnInteraction: false,
+                            speed: 100000,
+                        },
                     });
                 } else if (wdth > 650 && wdth < 1100) {
                     var swiper = new Swiper('.swiper-container', {
                         slidesPerView: 3,
                         slidesPerGroup: 1,
+                        autoplay: {
+                            delay: 700,
+                            disableOnInteraction: false,
+                            speed: 100000,
+                        },
                     });
                 } else if (wdth > 450 && wdth < 650) {
                     var swiper = new Swiper('.swiper-container', {
                         slidesPerView: 2,
                         slidesPerGroup: 1,
+                        autoplay: {
+                            delay: 700,
+                            disableOnInteraction: false,
+                            speed: 100000,
+                        },
                     });
                 } else if (wdth > 0 && wdth < 450) {
                     var swiper = new Swiper('.swiper-container', {
                         slidesPerView: 1,
                         slidesPerGroup: 1,
+                        autoplay: {
+                            delay: 700,
+                            disableOnInteraction: false,
+                            speed: 100000,
+                        },
                     });
                 }
             }
@@ -331,16 +346,13 @@
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 6,
             spaceBetween: 30,
-            slidesPerGroup: 3,
+            slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            autoplay: {
+                delay: 700,
+                disableOnInteraction: false,
+                speed: 100000,
             },
         });
 
@@ -353,22 +365,42 @@
             if (wdth > 1100 && wdth < 1350) {
                 var swiper = new Swiper('.swiper-container', {
                     slidesPerView: 5,
-                    slidesPerGroup: 2,
+                    slidesPerGroup: 1,
+                    autoplay: {
+                        delay: 700,
+                        disableOnInteraction: false,
+                        speed: 100000,
+                    },
                 });
             } else if (wdth > 650 && wdth < 1100) {
                 var swiper = new Swiper('.swiper-container', {
                     slidesPerView: 3,
                     slidesPerGroup: 1,
+                    autoplay: {
+                        delay: 700,
+                        disableOnInteraction: false,
+                        speed: 100000,
+                    },
                 });
             } else if (wdth > 450 && wdth < 650) {
                 var swiper = new Swiper('.swiper-container', {
                     slidesPerView: 2,
                     slidesPerGroup: 1,
+                    autoplay: {
+                        delay: 700,
+                        disableOnInteraction: false,
+                        speed: 100000,
+                    },
                 });
             } else if (wdth > 0 && wdth < 450) {
                 var swiper = new Swiper('.swiper-container', {
                     slidesPerView: 1,
                     slidesPerGroup: 1,
+                    autoplay: {
+                        delay: 700,
+                        disableOnInteraction: false,
+                        speed: 100000,
+                    },
                 });
             }
         });
