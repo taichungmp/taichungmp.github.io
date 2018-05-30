@@ -1,5 +1,5 @@
 body{
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
@@ -121,7 +121,7 @@ body{
     margin: 0 20px 0 0;
     background: rgba(0,0,0,0.5);
     position: relative;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2), 0 20px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .main-timeline .timeline-content:after {
@@ -183,7 +183,7 @@ body{
 
 .main-timeline .timeline:nth-child(2n) .timeline-content:after {
     border-left: none;
-    border-right: 20px solid rgba(0,0,0,0.8);
+    border-right: 20px solid rgba(0,0,0,0.5);
     right: auto;
     left: -20px;
 }
@@ -241,7 +241,7 @@ body{
     }
     .main-timeline .timeline:nth-child(2n) .year:before {
         border-left: none;
-        border-right: 18px solid #9898a0;
+        border-right: 18px solid rgba(0,0,0,0.5);
         right: auto;
         left: -18px;
     }
@@ -257,7 +257,7 @@ body{
     .main-timeline .timeline-content:after,
     .main-timeline .timeline:nth-child(2n) .timeline-content:after {
         border: none;
-        border-bottom: 20px solid #f2f2f2;
+        border-bottom: 20px solid rgba(0,0,0,0.5);
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         top: -20px;
