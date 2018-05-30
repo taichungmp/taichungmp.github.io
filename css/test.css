@@ -307,4 +307,7 @@ p {
     #timeline{
         margin: 70px auto;
     }
+    #banner {
+        height: 150px;
+    }
 }
