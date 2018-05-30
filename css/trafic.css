@@ -55,14 +55,15 @@ p {
 }
 
 .bus_info{
-    border: 1px solid #1b474e;
+    border: 5px solid #516A81;
     padding: 10px 100px;
     color: black;
     margin-top: 50px;
  }
 
  .bus_info:hover{
-     background: gray;
+     background:#516A81;
+     color: white;
  }
 
 /*section2*/

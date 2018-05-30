@@ -53,13 +53,24 @@
 
 
 #navbar li a {
-    color: #CC9B6F;
+    color: #603813;
     font-size: 15px;
     line-height: 94px;
 }
 
+#navbar li a:hover{
+  color:#C49A6D;
+  text-decoration: none;
+}
+
 #navbar li a.addfs {
     color: white;
+}
+
+
+#navbar li a.addfs:hover {
+    color:#C49A6D;
+    text-decoration: none;
 }
 
 /*icon*/
