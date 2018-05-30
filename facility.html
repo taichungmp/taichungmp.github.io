@@ -250,57 +250,57 @@
     <script>
         $(document).ready(function () {
 
-            swiperNum();
+            // swiperNum();
 
-            function swiperNum() {
+            // function swiperNum() {
 
-                var wdth = $(window).width();
-                if (wdth > 1100 && wdth < 1350) {
-                    var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 5,
-                        slidesPerGroup: 1,
-                        autoplay: {
-                            delay: 5700,
-                            disableOnInteraction: false,
-                          
-                        },
-                       
-                    });
-                } else if (wdth > 650 && wdth < 1100) {
-                    var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 3,
-                        slidesPerGroup: 1,
-                        autoplay: {
-                            delay: 5700,
-                            disableOnInteraction: false,
-                           
-                        },
-                      
-                    });
-                } else if (wdth > 450 && wdth < 650) {
-                    var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 2,
-                        slidesPerGroup: 1,
-                        autoplay: {
-                            delay: 5700,
-                            disableOnInteraction: false,
-                          
-                        },
-                       
-                    });
-                } else if (wdth > 0 && wdth < 450) {
-                    var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 1,
-                        slidesPerGroup: 1,
-                        autoplay: {
-                            delay: 5700,
-                            disableOnInteraction: false,
-                           
-                        },
-                        
-                    });
-                }
-            }
+            //     var wdth = $(window).width();
+            //     if (wdth > 1100 && wdth < 1350) {
+            //         var swiper = new Swiper('.swiper-container', {
+            //             slidesPerView: 5,
+            //             slidesPerGroup: 1,
+            //             autoplay: {
+            //                 delay: 5700,
+            //                 disableOnInteraction: false,
+
+            //             },
+
+            //         });
+            //     } else if (wdth > 650 && wdth < 1100) {
+            //         var swiper = new Swiper('.swiper-container', {
+            //             slidesPerView: 3,
+            //             slidesPerGroup: 1,
+            //             autoplay: {
+            //                 delay: 5700,
+            //                 disableOnInteraction: false,
+
+            //             },
+
+            //         });
+            //     } else if (wdth > 450 && wdth < 650) {
+            //         var swiper = new Swiper('.swiper-container', {
+            //             slidesPerView: 2,
+            //             slidesPerGroup: 1,
+            //             autoplay: {
+            //                 delay: 5700,
+            //                 disableOnInteraction: false,
+
+            //             },
+
+            //         });
+            //     } else if (wdth > 0 && wdth < 450) {
+            //         var swiper = new Swiper('.swiper-container', {
+            //             slidesPerView: 1,
+            //             slidesPerGroup: 1,
+            //             autoplay: {
+            //                 delay: 5700,
+            //                 disableOnInteraction: false,
+
+            //             },
+
+            //         });
+            //     }
+            // }
             //   寫出滑鼠滾輪事件
             $(window).scroll(function () {
                 //  用變數儲存瀏覽器的高度
@@ -348,7 +348,7 @@
         AOS.init();
 
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 6,
+            slidesPerView: 5,
             spaceBetween: 30,
             slidesPerGroup: 1,
             loop: true,
@@ -356,62 +356,81 @@
             autoplay: {
                 delay: 5700,
                 disableOnInteraction: false,
-                
-            },
-            
-        });
-
-
-
-
-        swiper.on('resize', function () {
-
-            var wdth = $(window).width();
-            if (wdth > 1100 && wdth < 1350) {
-                var swiper = new Swiper('.swiper-container', {
-                    slidesPerView: 5,
-                    slidesPerGroup: 1,
-                    autoplay: {
-                        delay: 5700,
-                        disableOnInteraction: false,
-                        },
-                  
-                });
-            } else if (wdth > 650 && wdth < 1100) {
-                var swiper = new Swiper('.swiper-container', {
+                },
+                breakpoints: {
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                768: {
                     slidesPerView: 3,
-                    slidesPerGroup: 1,
-                    autoplay: {
-                        delay: 5700,
-                        disableOnInteraction: false,
-                     
-                    },
-                    
-                });
-            } else if (wdth > 450 && wdth < 650) {
-                var swiper = new Swiper('.swiper-container', {
+                    spaceBetween: 30,
+                },
+                640: {
                     slidesPerView: 2,
-                    slidesPerGroup: 1,
-                    autoplay: {
-                        delay: 5700,
-                        disableOnInteraction: false,
-                        
-                    },
-                    
-                });
-            } else if (wdth > 0 && wdth < 450) {
-                var swiper = new Swiper('.swiper-container', {
+                    spaceBetween: 20,
+                },
+                400: {
                     slidesPerView: 1,
-                    slidesPerGroup: 1,
-                    autoplay: {
-                        delay: 5700,
-                        disableOnInteraction: false,
-                      
-                    },
-                    
-                });
+                    spaceBetween: 10,
+                }
             }
-        });
+
+           
+
+            })
+
+
+
+
+        // swiper.on('resize', function () {
+
+        //     var wdth = $(window).width();
+        //     if (wdth > 1100 && wdth < 1350) {
+        //         var swiper = new Swiper('.swiper-container', {
+        //             slidesPerView: 5,
+        //             slidesPerGroup: 1,
+        //             autoplay: {
+        //                 delay: 5700,
+        //                 disableOnInteraction: false,
+        //                 },
+
+        //         });
+        //     } else if (wdth > 650 && wdth < 1100) {
+        //         var swiper = new Swiper('.swiper-container', {
+        //             slidesPerView: 3,
+        //             slidesPerGroup: 1,
+        //             autoplay: {
+        //                 delay: 5700,
+        //                 disableOnInteraction: false,
+
+        //             },
+
+        //         });
+        //     } else if (wdth > 450 && wdth < 650) {
+        //         var swiper = new Swiper('.swiper-container', {
+        //             slidesPerView: 2,
+        //             slidesPerGroup: 1,
+        //             autoplay: {
+        //                 delay: 5700,
+        //                 disableOnInteraction: false,
+
+        //             },
+
+        //         });
+        //     } else if (wdth > 0 && wdth < 450) {
+        //         var swiper = new Swiper('.swiper-container', {
+        //             slidesPerView: 1,
+        //             slidesPerGroup: 1,
+        //             autoplay: {
+        //                 delay: 5700,
+        //                 disableOnInteraction: false,
+
+        //             },
+
+        //         });
+        //     }
+        // });
 
         //      swiper.on('resize', function () {
 
