@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/trafic.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/test.css">
@@ -109,7 +110,7 @@
     <div id="timeline" class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="main-timeline">
+                <div class="main-timeline" data-aos="zoom-in">
                     <div class="timeline">
                         <span class="timeline-icon"></span>
                         <span class="year">1795</span>
@@ -121,7 +122,7 @@
                         </div>
                     </div>
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="zoom-in">
                         <span class="timeline-icon"></span>
                         <span class="year">1896</span>
                         <div class="timeline-content">
@@ -133,7 +134,7 @@
                     </div>
 
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="zoom-in">
                         <span class="timeline-icon"></span>
                         <span class="year">1984</span>
                         <div class="timeline-content">
@@ -145,7 +146,7 @@
                     </div>
 
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="zoom-in">
                         <span class="timeline-icon"></span>
                         <span class="year">1992</span>
                         <div class="timeline-content">
@@ -156,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="timeline">
+                    <div class="timeline" data-aos="zoom-in">
                         <span class="timeline-icon"></span>
                         <span class="year">2000</span>
                         <div class="timeline-content">
@@ -196,6 +197,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="jss/aos.js"></script>
     <script src="jss/lightbox.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="jss/jquery.timelify.js"></script>
@@ -257,7 +259,7 @@
                 $('#mobile_navbar').removeClass('show');
             })
 
-
+        AOS.init();
 
         });
 
