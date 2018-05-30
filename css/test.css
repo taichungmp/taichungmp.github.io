@@ -294,7 +294,8 @@ body{
 /*banner*/
 
 #banner {
-    background: url('../img/history-title-bg.jpg')
+    background: url('../img/history-title-bg.jpg');
+    height: 200px;
 }
 
 p {
