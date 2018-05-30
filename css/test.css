@@ -1,3 +1,13 @@
+body{
+    transition-duration: 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    filter: grayscale(100%);
+}
+
+
+
 #timeline{
     margin: 150px auto;
 }
