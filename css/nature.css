@@ -2,7 +2,7 @@
 
 body{
     background: url('../img/nature-bg.png');
-}
+} 
 
 
 
@@ -21,12 +21,16 @@ body{
     margin-bottom: 30px;
     margin-left: 45%;
     font-weight: 900;
+    position: relative;
+    top: 20px;
     color: #683A25;
 }
 
 .subtitle {
     margin-bottom: 70px;
     line-height: 40px;
+    position: relative;
+    top: 20px;
 }
 
 .section.insect .title {
@@ -98,7 +102,7 @@ a{
 /*copyright*/
 
 #footer {
-    background: #373837;
+   background: #495057;
     padding: 10px 0px;
     margin: 0px;
 }
@@ -141,7 +145,7 @@ a{
         line-height: 23px;
     }
     .section {
-        padding: 30px;
+        margin: 30px 0px;
     }
     .mobile_picture_margin {
         margin-top: 2px;
@@ -157,7 +161,7 @@ a{
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
     .section {
-        padding: 30px 0px;
+        margin: 30px 0px;
     }
     .banner_title {
        font-size: 40px;
