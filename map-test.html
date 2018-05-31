@@ -26,71 +26,23 @@
     <div id="map"></div>
 
     <script>
-        
-            var map, geocoder;
-
+            var map;
             function initMap() {
-                geocoder = new google.maps.Geocoder();
-
-                results[]: {
-                types[]: string,
-                formatted_address: string,
-                address_components[]: {
-                short_name: string,
-                long_name: string,
-                postcode_localities[]: string,
-                types[]: string
-                },
-                partial_match: boolean,
-                place_id: string,
-                postcode_localities[]: string,
-                geometry: {
-                location: LatLng,
-                location_type: GeocoderLocationType
-                viewport: LatLngBounds,
-                bounds: LatLngBounds
-                }
-                }
-
-                map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 17
+                
+                var position = {
+                    lat: 24.2081840,
+                    lng: 120.5980330,
+                 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 2,
+                    center: position,
                 });
-
-                var address = '台中都會公園';
-
-                geocoder.geocode( { 'address': address}, function(results, status) {
-                    if (status == 'OK') {
-                    map.setCenter(results[0].geometry.location);
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: results[0].geometry.location
-                    });
-                    } else {
-                    console.log(status);
-                    }
+                var marker = new google.maps.Marker({
+                    position: position,
+                    map: map,
+                    animation: google.maps.Animation.BOUNCE,
                 });
             }
-
-
-
-
-            // var map;
-            // function initMap() {
-                
-            //     var position = {
-            //         lat: 24.2081840,
-            //         lng: 120.5980330,
-            //      };
-            //     var map = new google.maps.Map(document.getElementById('map'), {
-            //         zoom: 2,
-            //         center: position,
-            //     });
-            //     var marker = new google.maps.Marker({
-            //         position: position,
-            //         map: map,
-            //         animation: google.maps.Animation.BOUNCE,
-            //     });
-            // }
 
           </script>
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7wn-J59FHV4Zs769Amaje9zYNySGlvI&callback=initMap"
