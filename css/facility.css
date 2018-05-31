@@ -1,0 +1,269 @@
+p {
+    line-height: 2;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+}
+
+#section {
+    padding: 100px 0px;
+}
+
+/*copyright*/
+
+.copyright {
+    margin-left: 5px;
+}
+
+/*banner*/
+
+#banner {
+    background: url('../img/title-about.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner_title {
+    font-family: source-han-serif-tc;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*scene_path*/
+
+#scene_path {
+    padding: 100px 0px;
+}
+
+.scene_path_title,
+.scene_path_name {
+    font-weight: 900;
+}
+
+
+.scene_path_name {
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    display: inline-block;
+    
+}
+
+.scene_path_img {
+    border-radius: 300px;
+    max-width: 200px;
+    max-height:200px;
+}
+
+/*section*/
+
+.dynasty {
+    font-weight: 900;
+}
+
+.period {
+    margin-top: 15px;
+}
+
+.story {
+    margin-top: 30px;
+}
+
+/*swiper*/
+
+html,
+body {
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    background: #383333;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*castle*/
+
+.dynasty {
+    font-weight: 900;
+}
+
+.period {
+    margin-top: 15px;
+}
+
+.story {
+    margin-top: 30px;
+}
+
+
+.add_margin {
+    margin-top: 10px;
+}
+
+.add_padding {
+    padding-top: 200px;
+}
+
+/*graphic/*/
+
+#graphic {
+    background: url('../img/park-map-1920x911.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.graphic_title {
+    font-weight: 900;
+    margin-top: 120px;
+    color: white;
+}
+
+.graphic_description {
+    line-height: 2.5;
+    color: white;
+}
+
+/*footer*/
+
+#footer {
+    background: #373837;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.copyright {
+    color: white;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    p {
+        line-height: 1.8;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #section {
+        padding: 50px 0px;
+    }
+    p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #banner {
+        height: 150px;
+    }
+
+    .scene_path_img {
+        border-radius: 300px;
+        max-width: 160px;
+        max-height:160px;
+    }
+   
+    .add_margin {
+        margin-top: 20px;
+    }
+    .period {
+        margin-top: 15px;
+    }
+    .story {
+        margin-top: 30px;
+    }
+    .story_img {
+        margin-bottom: 30px;
+    }
+
+    .add_padding {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    #section {
+        padding: 25px 0px;
+    }
+    #banner {
+        height: 150px;
+    }
+    .banner_title {
+        font-size: 40px;
+    }
+    p {
+        line-height: 1.8;
+    }
+    .period {
+        margin-top: 15px;
+    }
+    .story {
+        margin-top: 15px;
+    }
+    .copyright {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .add_margin {
+        margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #section {
+        padding: 30px 0px;
+    }
+    #banner {
+        height: 150px;
+    }
+    .banner_title {
+       
+        font-size: 40px;
+    }
+    p {
+        line-height: 1.4;
+    }
+    .period {
+        margin-top: 7px;
+    }
+    .story {
+        margin-top: 15px;
+    }
+    .copyright {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .add_margin {
+        margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
+    }
+}
