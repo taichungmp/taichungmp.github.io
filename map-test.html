@@ -45,7 +45,12 @@
 
              
             function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
+                var marker = new google.maps.Marker({
+                    position: center,
+                    map: map
+                });
+
+                map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 14,
                     center: {
                     lat: 24.2081840,
