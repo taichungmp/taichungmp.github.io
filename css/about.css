@@ -49,8 +49,8 @@ p {
 
 .scene_path_img {
     border-radius: 300px;
-    height: 200px;
-    width: 200px;
+    max-width: 200px;
+    max-height:200px;
 }
 
 /*section*/
@@ -167,6 +167,12 @@ body {
     }
     #banner {
         height: 150px;
+    }
+
+    .scene_path_img {
+        border-radius: 300px;
+        max-width: 160px;
+        max-height:160px;
     }
    
     .add_margin {
