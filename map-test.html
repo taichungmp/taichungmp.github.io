@@ -29,30 +29,17 @@
             var map;
 
             function initMap() {
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 14,
-                    center:{lat: 25.0339031, 121.5623212},
-                });
                 var marker = new google.maps.Marker({
                     position: center,
                     map: map,
                     animation: google.maps.Animation.BOUNCE,
                 });
-            // }
-
-             
-            // function initMap() {               
-
-            //     map = new google.maps.Map(document.getElementById('map'), {
-            //         zoom: 14,
-            //         center: {
-            //         lat: 24.2081840,
-            //         lng: 120.5980330,
-            //         },
-                    styles: 
-
+                
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    center:{lat: 25.0339031, lng:121.5623212},             
                     // 修改地圖樣式
-                    [{
+                    styles:[{
                         elementType: "geometry",
                         stylers: [
                         {
@@ -266,6 +253,8 @@
                         ]
                     }]
                     // 修改地圖樣式終止線
+
+                    
                 });
                 
             }
