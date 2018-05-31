@@ -44,11 +44,7 @@
             // }
 
              
-            function initMap() {
-                var marker = new google.maps.Marker({
-                    position: center,
-                    map: map
-                });
+            function initMap() {               
 
                 map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 14,
@@ -273,6 +269,10 @@
                         ]
                     }]
                     // 修改地圖樣式終止線
+                });
+                var marker = new google.maps.Marker({
+                    position: center,
+                    map: map
                 });
             }
 
