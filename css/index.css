@@ -5,8 +5,8 @@ a{
 .index_section{
     position: fixed;
     top: 25%;
-    left: 2%;
     line-height: 1.8;
+    width: 100%;
 }
 
 
@@ -38,7 +38,10 @@ a:hover{
 }
 
 .sub_title:hover{
-    color: brown;
+   background: white;
+   opacity: 0.5;
+   color: black;
+   width: 100%;
 }
 
 
