@@ -37,15 +37,16 @@
             function initMap() {
                 var position = {
                     lat: 24.2081840,
-                    lng: 120.5980330
+                    lng: 120.5980330,
                  };
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 18,
-                    center: position
+                    center: position,
                 });
                 var marker = new google.maps.Marker({
                     position: position,
-                    map: map
+                    map: map,
+                    animation: google.maps.Animation.BOUNCE,
                 });
             }
           </script>
