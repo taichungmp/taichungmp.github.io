@@ -1,5 +1,6 @@
 p {
     line-height: 2;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
 }
 
 #section {
@@ -15,7 +16,6 @@ p {
 /*banner*/
 
 #banner {
-    background: url('../img/title-about.jpg');
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,6 +26,7 @@ p {
 }
 
 .banner_title {
+    font-family: source-han-serif-tc;
     text-align: center;
     position: relative;
     top: 50px;
@@ -45,6 +46,14 @@ p {
 .scene_path_title,
 .scene_path_name {
     font-weight: 900;
+}
+
+
+.scene_path_name {
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    display: inline-block;
+    
 }
 
 .scene_path_img {

@@ -2,6 +2,7 @@
 
 body{
     background: url('../img/nature-bg.png');
+    
 } 
 
 
@@ -41,6 +42,10 @@ a{
     color:black;
 }
 
+h2{
+    color: #603813;
+}
+
 /*banner*/
 
 #banner {
@@ -68,8 +73,7 @@ a{
 .dotted {    
     margin-top: 40px;
     margin-bottom: 90px;
-    border: 1px dotted  #683A25;
-    padding: 0 50px;
+    border-bottom: 3px dashed  #683A25;
 }
 
 
