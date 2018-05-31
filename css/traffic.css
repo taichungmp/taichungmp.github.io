@@ -83,6 +83,13 @@ p {
     line-height: 1.7;
 }
 
+/* google-map */
+#map{
+    width: 100%;
+    height: 550px;
+}
+
+
 /*section4*/
 #address{
     padding: 20px 0px;
