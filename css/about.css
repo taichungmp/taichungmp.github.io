@@ -122,9 +122,10 @@ body {
 /*graphic/*/
 
 #graphic {
-    background: url('../img/12345.jpg');
+    background: url('../img/park-map-1920x911.jpg');
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    height: 750px;
 }
 
 .graphic_title {
