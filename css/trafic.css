@@ -57,13 +57,18 @@ p {
 .bus_info{
     border: 5px solid #516A81;
     padding: 10px 100px;
-    color: black;
+    color: #516A81;
     margin-top: 50px;
+    font-weight: bold;
  }
 
  .bus_info:hover{
      background:#516A81;
      color: white;
+ }
+
+ .add_textCenter {
+     text-align: center;
  }
 
 /*section2*/
