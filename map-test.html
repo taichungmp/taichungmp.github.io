@@ -145,8 +145,9 @@
 
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
+            var position = {lat:  24.207828, lng: 120.598816};
             var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat:  24.207828, lng: 120.598816},
+                center: position,
                 zoom: 14,
                 mapTypeControlOptions: {
                 mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',]
@@ -159,7 +160,7 @@
 
             // 地標跳躍動畫
             var marker = new google.maps.Marker({
-                position: center,
+                position: position,
                 map: map,
                 animation: google.maps.Animation.BOUNCE,
             });
