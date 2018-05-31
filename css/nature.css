@@ -20,11 +20,13 @@ body{
 .title {
     text-transform: capitalize;
     margin-bottom: 30px;
-    margin-left: 45%;
+    /* margin-left: 45%; */
     font-weight: 900;
     position: relative;
     top: 20px;
     color: #683A25;
+    display: flex;
+    justify-content: center;
 }
 
 .subtitle {
@@ -123,7 +125,8 @@ h2{
 
 @media screen and (min-width: 577px) and (max-width: 1140px) {
     .title {
-        margin-left: 43%;
+        display: flex;
+        justify-content: center;    
     }
 }
 
@@ -143,7 +146,8 @@ h2{
        font-size: 40px;
     }
     .title {
-        margin-left: 34%;
+        display: flex;
+        justify-content: center;
     }
     .dotted {
         margin-top: 40px;
@@ -185,7 +189,8 @@ h2{
         background-attachment: scroll;
     }
     .title {
-        margin-left: 33%;
+        display: flex;
+        justify-content: center;
     }
     .dotted {
         margin-top: 40px;
