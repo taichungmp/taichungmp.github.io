@@ -136,6 +136,7 @@ h2{
 @media screen and (min-width: 321px) and (max-width: 576px) {
     #banner {
         height: 150px;
+        background-attachment: scroll;
     }
     .banner_title {
        position: relative;
@@ -181,6 +182,7 @@ h2{
     }
     #banner {
         height: 150px;
+        background-attachment: scroll;
     }
     .title {
         margin-left: 33%;
