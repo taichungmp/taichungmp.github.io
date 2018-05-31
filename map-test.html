@@ -26,24 +26,32 @@
     <div id="map"></div>
 
     <script>
-            var map;
+            // var map;
+            // function initMap() {
+            //     var position = {
+            //         lat: 25.0339031,
+            //         lng: 121.5623212,
+            //     };
+            //     var map = new google.maps.Map(document.getElementById('map'), {
+            //         zoom: 14,
+            //         center: position,
+            //     });
+            //     var marker = new google.maps.Marker({
+            //         position: position,
+            //         map: map,
+            //         animation: google.maps.Animation.BOUNCE,
+            //     });
+            // }
+
+            
+            var map; 
             function initMap() {
-                var position = {
-                    lat: 25.0339031,
-                    lng: 121.5623212,
-                };
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 14,
-                    center: position,
-                });
+
                 var marker = new google.maps.Marker({
                     position: position,
                     map: map,
                     animation: google.maps.Animation.BOUNCE,
                 });
-            }
-
-            function initMap() {
 
             map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 14,
