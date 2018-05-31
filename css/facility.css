@@ -1,6 +1,7 @@
 p {
     line-height: 2;
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+    font-weight: 600;
 }
 
 #section {
@@ -22,6 +23,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 
 }
 
@@ -46,6 +48,7 @@ p {
 .scene_path_title,
 .scene_path_name {
     font-weight: 900;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 
@@ -66,14 +69,19 @@ p {
 
 .dynasty {
     font-weight: 900;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 .period {
     margin-top: 15px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
 }
 
 .story {
     margin-top: 30px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
 }
 
 /*swiper*/

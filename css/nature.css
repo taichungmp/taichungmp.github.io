@@ -22,13 +22,13 @@ body{
 .title {
     text-transform: capitalize;
     margin-bottom: 30px;
-    /* margin-left: 45%; */
     font-weight: 900;
     position: relative;
     top: 20px;
     color: #683A25;
     display: flex;
     justify-content: center;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 .subtitle {
@@ -44,10 +44,17 @@ body{
 
 a{
     color:black;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+    font-weight: 600;
 }
 
 h2{
     color: #603813;
+}
+
+p {
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+    font-weight: 600;
 }
 
 /*banner*/
@@ -58,6 +65,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 .banner_title {

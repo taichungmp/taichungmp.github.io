@@ -26,6 +26,7 @@ p {
     background-repeat: no-repeat;
     background-position-y: 70%;
     background-attachment: fixed;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 .banner_title {
@@ -45,16 +46,19 @@ p {
      font-weight: 900;
      font-size: 40px;
      margin-top: 30px;
+     font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
 }
 
 .transportation_info{
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 50px;
 }
 
 .bus_info{
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
     border: 5px solid #516A81;
     padding: 10px 100px;
     color: #516A81;
@@ -72,13 +76,16 @@ p {
  }
 
 /*section2*/
-.drive{ font-weight: 900;
+.drive{ 
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif;
+    font-weight: 900;
     font-size: 40px;
    }
 .high_speed_way{
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
     margin: 20px 0px;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.7;
 }
@@ -89,9 +96,10 @@ p {
 }
 
 .address{
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
     margin: 10px 0px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 
