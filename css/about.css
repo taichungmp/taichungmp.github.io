@@ -20,6 +20,9 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .banner_title {
@@ -112,12 +115,17 @@ body {
     margin-top: 10px;
 }
 
+.add_padding {
+    padding-top: 200px;
+}
+
 /*graphic/*/
 
 #graphic {
-    background: url('../img/12345.jpg');
+    background: url('../img/park-map-1920x911.jpg');
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    height: 750px;
 }
 
 .graphic_title {
@@ -173,6 +181,10 @@ body {
     .story_img {
         margin-bottom: 30px;
     }
+
+    .add_padding {
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
@@ -200,6 +212,10 @@ body {
     }
     .add_margin {
         margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
     }
 }
 
@@ -229,5 +245,9 @@ body {
     }
     .add_margin {
         margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
     }
 }
