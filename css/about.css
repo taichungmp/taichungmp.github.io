@@ -295,9 +295,12 @@ body{
 
 #banner {
     background: url('../img/title-histroy.jpg');
-    background-position:  center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position:  center;
     height: 200px;
+    background-attachment: fixed;
+    
 }
 
 p {
