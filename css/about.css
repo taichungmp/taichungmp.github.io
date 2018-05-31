@@ -115,6 +115,10 @@ body {
     margin-top: 10px;
 }
 
+.add_padding {
+    padding-top: 200px;
+}
+
 /*graphic/*/
 
 #graphic {
@@ -176,6 +180,10 @@ body {
     .story_img {
         margin-bottom: 30px;
     }
+
+    .add_padding {
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
@@ -203,6 +211,10 @@ body {
     }
     .add_margin {
         margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
     }
 }
 
@@ -232,5 +244,9 @@ body {
     }
     .add_margin {
         margin-top: 19px;
+    }
+
+    .add_padding {
+        padding-top: 0;
     }
 }
