@@ -176,6 +176,7 @@ body {
     }
     #banner {
         height: 150px;
+        background-attachment: scroll;
     }
 
     .scene_path_img {
@@ -208,6 +209,7 @@ body {
     }
     #banner {
         height: 150px;
+        background-attachment: scroll;
     }
     .banner_title {
         font-size: 40px;
@@ -240,6 +242,7 @@ body {
     }
     #banner {
         height: 150px;
+        background-attachment: scroll;
     }
     .banner_title {
        

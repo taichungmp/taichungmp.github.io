@@ -117,7 +117,7 @@ p {
     p {
         line-height: 1.8;
     }
-}
+} 
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     body{
@@ -141,6 +141,10 @@ p {
     .story_img {
         margin-bottom: 30px;
     }
+    #banner {
+        height: 150px;
+        background-attachment: scroll;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
@@ -153,6 +157,7 @@ p {
     }
     #banner{
         height: 150px;
+        background-attachment: scroll;
     }
     .banner_title {
        
@@ -218,6 +223,7 @@ p {
     }
     #banner{
         height: 150px;
+        background-attachment: scroll;
     }
     .banner_title {
        
