@@ -1,7 +1,7 @@
 p {
     line-height: 2;
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #section {
@@ -74,14 +74,15 @@ p {
 
 .period {
     margin-top: 15px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
 }
 
 .story {
-    margin-top: 30px;
-    font-weight: 600;
+    margin-top: 25px;
+    Lfont-weight: 500;
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+    line-height: 28px;
 }
 
 /*swiper*/

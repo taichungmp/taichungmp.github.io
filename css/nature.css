@@ -45,7 +45,7 @@ body{
 a{
     color:black;
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h2{
@@ -54,7 +54,7 @@ h2{
 
 p {
     font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /*banner*/
