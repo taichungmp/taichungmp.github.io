@@ -48,7 +48,7 @@ p {
 }
 
 .transportation_info{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: 300;
     margin-top: 50px;
@@ -90,7 +90,7 @@ p {
 
 .address{
     margin: 10px 0px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 3px;
 }
@@ -159,23 +159,23 @@ p {
         font-size: 40px;
     }
     .public_transportation{
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 15px;
    }
    
    .transportation_info{
-       font-size: 10px;
+       font-size: 20px;
        letter-spacing: 1px;
        font-weight: 300;
        margin-top: 20px;
    }
    .drive{ 
-    font-size: 25px;
+    font-size: 30px;
    }
 
    .high_speed_way{
     margin: 10px 0px;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -193,7 +193,7 @@ p {
    
     .copyright {
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .add_margin{
@@ -203,7 +203,7 @@ p {
         height: 250px;
     }
     .address{
-        font-size: 10px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 }
@@ -224,23 +224,23 @@ p {
         font-size: 40px;
     }
     .public_transportation{
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 15px;
    }
    
    .transportation_info{
-       font-size: 10px;
+       font-size: 20px;
        letter-spacing: 1px;
        font-weight: 300;
        margin-top: 20px;
    }
    .drive{ 
-    font-size: 25px;
+    font-size: 30px;
    }
 
    .high_speed_way{
     margin: 10px 0px;
-    font-size: 8px;
+    font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -257,7 +257,7 @@ p {
    
     .copyright {
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 20px;
     }
     .add_margin{
         margin-top: 19px;
@@ -267,7 +267,7 @@ p {
     }
 
     .address{
-        font-size: 10px;
+        font-size: 20px;
         letter-spacing: 0px;
     }
 }
