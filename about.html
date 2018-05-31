@@ -233,16 +233,19 @@
                 if (window_height > 0 && window_height < 600) {
                     $("body").css(
                         "background-image", "url('img/forest-bg-1920x1080.jpg')",
+                        "background-attachment", "fixed",
 
+                    //    " background-position","center top",
                     );
                 } else if (window_height > 600 && window_height < 1100) {
                     $("body").css(
                         "background-image", "url('img/sugar-cane-1920x1080bg.jpg')",
-
+                        // " background-position","center center",
                     );
                 } else if (window_height > 1100 && window_height < 2400) {
                     $("body").css(
                         "background-image", "url('img/now-bg-1920x1080.jpg')",
+                        // " background-position","center bottom",
                     );
                 }
             })
