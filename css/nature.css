@@ -102,9 +102,11 @@ a{
 /*copyright*/
 
 #footer {
-   background: #495057;
-    padding: 10px 0px;
+    background: #373837;
+    padding-top: 15px;
+    padding-bottom: 5px;
     margin: 0px;
+    
 }
 
 .copyright {
