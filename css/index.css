@@ -24,7 +24,7 @@ a{
     transition-duration: 1s;
     font-size: 20px;
     letter-spacing: 4px;
-    padding: 5px 0;
+    padding: 5.5px 0;
 }
 
 .sub_title:after{
@@ -40,7 +40,6 @@ a:hover{
 
 .sub_title:hover{
    background-color: rgba(255, 255, 255, 0.25);
-   mix-blend-mode: lighten;
    color: white;
    width: 100%;
 }
