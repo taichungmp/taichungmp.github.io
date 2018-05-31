@@ -85,8 +85,8 @@
                     </div>
                     <div class="col-3 text-right">
                         <div>
-                            <i class="fab fa-facebook-square icon  fa-2x" style="color:#57678F; "></i>
-                            <i class="fab fa-youtube-square icon fa-2x mr-4 " style="color:#C4032B;"></i>
+                            <img class="mt-4" src="img/fb-icon.svg" style="widows: 30px;height:40px;" alt="">
+                            <img class="mt-4" src="img/youtube-icon.svg" style="widows: 30px;height:40px;" alt="">
                         </div>
                     </div>
                 </div>
@@ -136,46 +136,22 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-01-200x200.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-02-200x200.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-04-200x200.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-05-200x200.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-06-200x200.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="http://via.placeholder.com/200x200" alt="">
+                    <img src="img/facility/environment-07-200x200.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -250,57 +226,6 @@
     <script>
         $(document).ready(function () {
 
-            // swiperNum();
-
-            // function swiperNum() {
-
-            //     var wdth = $(window).width();
-            //     if (wdth > 1100 && wdth < 1350) {
-            //         var swiper = new Swiper('.swiper-container', {
-            //             slidesPerView: 5,
-            //             slidesPerGroup: 1,
-            //             autoplay: {
-            //                 delay: 5700,
-            //                 disableOnInteraction: false,
-
-            //             },
-
-            //         });
-            //     } else if (wdth > 650 && wdth < 1100) {
-            //         var swiper = new Swiper('.swiper-container', {
-            //             slidesPerView: 3,
-            //             slidesPerGroup: 1,
-            //             autoplay: {
-            //                 delay: 5700,
-            //                 disableOnInteraction: false,
-
-            //             },
-
-            //         });
-            //     } else if (wdth > 450 && wdth < 650) {
-            //         var swiper = new Swiper('.swiper-container', {
-            //             slidesPerView: 2,
-            //             slidesPerGroup: 1,
-            //             autoplay: {
-            //                 delay: 5700,
-            //                 disableOnInteraction: false,
-
-            //             },
-
-            //         });
-            //     } else if (wdth > 0 && wdth < 450) {
-            //         var swiper = new Swiper('.swiper-container', {
-            //             slidesPerView: 1,
-            //             slidesPerGroup: 1,
-            //             autoplay: {
-            //                 delay: 5700,
-            //                 disableOnInteraction: false,
-
-            //             },
-
-            //         });
-            //     }
-            // }
             //   寫出滑鼠滾輪事件
             $(window).scroll(function () {
                 //  用變數儲存瀏覽器的高度
@@ -352,9 +277,10 @@
             spaceBetween: 30,
             slidesPerGroup: 1,
             loop: true,
+            speed:5000,
             loopFillGroupWithBlank: true,
             autoplay: {
-                delay: 5700,
+                delay:0000,
                 disableOnInteraction: false,
                 },
                 breakpoints: {
@@ -374,90 +300,15 @@
                     slidesPerView: 1,
                     spaceBetween: 10,
                 }
+            
             }
 
-           
+          
+
+            
 
             })
 
-
-
-
-        // swiper.on('resize', function () {
-
-        //     var wdth = $(window).width();
-        //     if (wdth > 1100 && wdth < 1350) {
-        //         var swiper = new Swiper('.swiper-container', {
-        //             slidesPerView: 5,
-        //             slidesPerGroup: 1,
-        //             autoplay: {
-        //                 delay: 5700,
-        //                 disableOnInteraction: false,
-        //                 },
-
-        //         });
-        //     } else if (wdth > 650 && wdth < 1100) {
-        //         var swiper = new Swiper('.swiper-container', {
-        //             slidesPerView: 3,
-        //             slidesPerGroup: 1,
-        //             autoplay: {
-        //                 delay: 5700,
-        //                 disableOnInteraction: false,
-
-        //             },
-
-        //         });
-        //     } else if (wdth > 450 && wdth < 650) {
-        //         var swiper = new Swiper('.swiper-container', {
-        //             slidesPerView: 2,
-        //             slidesPerGroup: 1,
-        //             autoplay: {
-        //                 delay: 5700,
-        //                 disableOnInteraction: false,
-
-        //             },
-
-        //         });
-        //     } else if (wdth > 0 && wdth < 450) {
-        //         var swiper = new Swiper('.swiper-container', {
-        //             slidesPerView: 1,
-        //             slidesPerGroup: 1,
-        //             autoplay: {
-        //                 delay: 5700,
-        //                 disableOnInteraction: false,
-
-        //             },
-
-        //         });
-        //     }
-        // });
-
-        //      swiper.on('resize', function () {
-
-        //       var wdth = $(window).width();
-        //       if (wdth < 1100) {
-        //       var swiper = new Swiper('.swiper-container', {
-        //       slidesPerView: 3,});
-        //    }
-        //    });
-
-        //     swiper.on('resize', function () {
-
-        //       var wdth = $(window).width();
-        //    if (wdth < 650) {
-        //       var swiper = new Swiper('.swiper-container', {
-        //       slidesPerView: 2,});
-        //    }
-        //    });
-
-        //     swiper.on('resize', function () {
-
-        //       var wdth = $(window).width();
-        //    if (wdth < 450) {
-        //       var swiper = new Swiper('.swiper-container', {
-        //       slidesPerView: 1,});
-        //    }
-        //    });
     </script>
 </body>
 
