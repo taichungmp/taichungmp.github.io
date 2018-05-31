@@ -48,7 +48,7 @@ p {
 }
 
 .transportation_info{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 300;
     margin-top: 50px;
@@ -77,7 +77,7 @@ p {
    }
 .high_speed_way{
     margin: 20px 0px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -90,7 +90,7 @@ p {
 
 .address{
     margin: 10px 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 3px;
 }
@@ -159,30 +159,30 @@ p {
         font-size: 40px;
     }
     .public_transportation{
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 15px;
    }
    
    .transportation_info{
-       font-size: 10px;
+       font-size: 16px;
        letter-spacing: 1px;
        font-weight: 300;
        margin-top: 20px;
    }
    .drive{ 
-    font-size: 25px;
+    font-size: 30px;
    }
 
    .high_speed_way{
     margin: 10px 0px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
     line-height: 1.4;
 }
    
    .bus_info{
-       border: 5px solid #1b474e;
+       border: 4px solid #1b474e;
        padding: 10px 70px;
        color: black;
        margin-top: 20px;
@@ -193,7 +193,7 @@ p {
    
     .copyright {
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .add_margin{
@@ -203,7 +203,7 @@ p {
         height: 250px;
     }
     .address{
-        font-size: 10px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
 }
@@ -224,30 +224,30 @@ p {
         font-size: 40px;
     }
     .public_transportation{
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 15px;
    }
    
    .transportation_info{
-       font-size: 10px;
+       font-size: 16px;
        letter-spacing: 1px;
        font-weight: 300;
        margin-top: 20px;
    }
    .drive{ 
-    font-size: 25px;
+    font-size: 30px;
    }
 
    .high_speed_way{
     margin: 10px 0px;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
     line-height: 1.4;
 }
    
    .bus_info{
-       border: 1px solid #1b474e;
+       border: 3px solid #1b474e;
        padding: 10px 70px;
        color: black;
     }
@@ -257,7 +257,7 @@ p {
    
     .copyright {
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 16px;
     }
     .add_margin{
         margin-top: 19px;
@@ -267,7 +267,7 @@ p {
     }
 
     .address{
-        font-size: 10px;
+        font-size: 16px;
         letter-spacing: 0px;
     }
 }
