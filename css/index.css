@@ -38,9 +38,8 @@ a:hover{
 }
 
 .sub_title:hover{
-   background: white;
-   opacity: 0.5;
-   color: black;
+   background-color: rgba(255, 255, 255, 0.2);
+   color: rgb(71, 71, 71);
    width: 100%;
 }
 
