@@ -189,7 +189,7 @@ p {
    .high_speed_way{
     margin: 10px 0px;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.4;
 }
@@ -202,6 +202,10 @@ p {
     }
     p {
         line-height: 1.4;
+    }
+
+    .address{
+        font-weight: 300;
     }
    
     .copyright {
