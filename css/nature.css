@@ -123,12 +123,13 @@ p {
     padding-top: 15px;
     padding-bottom: 5px;
     margin: 0px;
-    
 }
 
 .copyright {
     color: white;
     margin-left: 5px;
+    font-family: Helvetica, Arial, 微軟正黑體, sans-serif;
+
 }
 
 /*手機CSS*/
