@@ -20,6 +20,10 @@ a {
     color: white;
 }
 
+#left_button {
+    margin: 15px 15px 0 0; 
+}
+
 #header{
     height: 44px;
     background: white;
