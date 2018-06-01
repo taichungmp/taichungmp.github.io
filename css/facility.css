@@ -150,6 +150,7 @@ body {
     font-weight: 900;
     margin-top: 120px;
     color: white;
+    font-family: Helvetica, Arial, source-han-serif-tc , 微軟正黑體, sans-serif
 }
 
 .graphic_description {
@@ -182,6 +183,7 @@ body {
     p {
         line-height: 1.5;
         font-size: 16px;
+        font-weight: 500;
     }
     #banner {
         height: 150px;
@@ -199,9 +201,11 @@ body {
     }
     .period {
         margin-top: 15px;
+        font-weight: 500;
     }
     .story {
         margin-top: 30px;
+        font-weight: 500;
     }
     .story_img {
         margin-bottom: 30px;
